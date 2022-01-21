@@ -615,7 +615,7 @@ footer{
     }
 
     .video-recorrido iframe {
-    width: 800px;
+    width: 700px;
     }
 
 
@@ -836,9 +836,13 @@ footer{
 
     }
 
+    .container-redes{
+        flex-direction: row;
+    }
+
     .container-redes div a{
         font-size: 1.5rem;
-        margin-right: 2em;
+        margin-right: 1em;
     }
 
 
@@ -886,6 +890,7 @@ footer{
     }
 
     .footer-cuatro form {
+        flex-direction: row;
         margin-left: 1.8em;
         margin-right: 1.8em;
         margin-bottom: 1em;
