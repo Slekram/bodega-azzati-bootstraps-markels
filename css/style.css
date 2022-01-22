@@ -11,20 +11,7 @@ html{
     font-size: 1em;
 }
 
-/* Fuente Saint Capital*/
-@font-face {
-    font-family: saintCapital;
-    src: url(src/assets/fonts/saint-capital.ttf);
-    font-display: swap; 
-}
-
-
-/* Header */
-
-
 /* PAGINA INDEX -----------------------------------------*/
-
-
 
 /* SECCION BODEGA */
 
@@ -36,12 +23,10 @@ html{
 
 .div-bodega{
     border: #2e3436 solid 5px;
-    
 }
 
 .div-bodega h2{
     display: flex;
-    align-items: center;
     justify-content:center;
     border: #2e3436 2px solid;
     background-color: #FAEBD7;
@@ -51,10 +36,7 @@ html{
 }
 
 .primera-linea{
-    display: flex;
     align-items: center;
-    justify-content:space-evenly;
-
 }
 
 .parrafo-bodega {
@@ -70,11 +52,8 @@ html{
     height: auto;
 } 
 
-
 .segunda-linea{
-    display: flex;
     align-items: center;
-    justify-content: space-evenly;
 } 
 
 .video-recorrido{
@@ -86,8 +65,6 @@ html{
     padding-bottom: 2em;
 
 }
-
-
 
 /* SECCION NOSOTROS */
 
@@ -119,7 +96,6 @@ html{
     font-style: italic;
     font-weight: bold;
 }
-
 
 /* PAGINA VINOS -------------------------------------------------*/
 
@@ -300,12 +276,14 @@ footer{
 
 .footer-uno h4 {
     color: #2e3436;
+    display: flex;
 }
 
 .gran-container-premios{
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    margin-bottom: 1em;
 }
 
 .container-premios{
@@ -333,8 +311,8 @@ footer{
 }
 
 .footer-dos h4{
+    color: #2e3436;
     display: flex;
-    align-items: center;
 } 
 
 
@@ -344,19 +322,22 @@ footer{
     justify-content: space-around;
     align-items: center;
 
+
 }
 
 .container-redes div a{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 
-.container-redes div h5 {
+.container-redes div a h5 {
     text-decoration: underline;
     font-weight: bold;
     color: #2e3436;
+    margin-left: 0.5em;
 }
 
 /* Footer 3 */
@@ -370,20 +351,22 @@ footer{
 
 .footer-tres h4{
     color: #2e3436;
+    display: flex;
 }
 
 .container-mapa{
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 1em;
 }
 
 
 /* Footer 4 */
 
  .footer-cuatro{
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     background-color: #ffa07a;
     border: #2e3436 solid 2px;
 }
@@ -424,16 +407,12 @@ footer{
         justify-content: space-around;
     }
     
-
     /* SECCION BODEGA */
     
-   
-
     .segunda-linea{
         flex-direction: column-reverse;
     }
      
-    
     .div-bodega h2{
         font-size: 2rem;
     }
@@ -457,7 +436,7 @@ footer{
     }
     
     .div-nosotros h3{
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
 
@@ -476,14 +455,16 @@ footer{
     /* Footer 1 */
 
     .footer-uno h4 {
-        font-size: 1.rem;
+        font-size: 1.2rem;
+       justify-content: center;
     }
 
-
-
+    
     .container-premios h5{
-        font-size: 1rem; 
+        font-size: 0.9rem; 
+        margin-right: 0.4em;
     }
+
 
 
     /* Footer 2 */
@@ -492,6 +473,8 @@ footer{
     .footer-dos h4{
         font-size: 1.2rem;
         margin-bottom: 0.5em;
+        justify-content: center;
+        
     } 
 
 
@@ -509,13 +492,10 @@ footer{
 
     /* Footer 3 */
 
-    .footer-tres{
-        justify-content: center;
-        align-items: center;
-    }
-
+    
     .footer-tres h4{
         font-size: 1.2rem;
+        justify-content: center;
     }
 
     .container-mapa iframe{
@@ -771,10 +751,9 @@ footer{
 
     /* Footer 1 */
 
-
-
     .footer-uno h4 {
         font-size: 1.7rem;
+        justify-content: flex-start;
     }
 
     .gran-container-premios{
@@ -796,6 +775,7 @@ footer{
         font-size: 1.7rem;
         margin-bottom: 0.5em;
         margin-left: 1em;
+        justify-content: flex-start;
     } 
 
 
@@ -828,6 +808,7 @@ footer{
         font-size: 1.7rem;
         margin-left: 1em;
         margin-bottom: 0.5em;
+        justify-content: flex-start;
     }
 
     .container-mapa{
@@ -855,6 +836,7 @@ footer{
         font-size: 1.7rem;
         margin-bottom: 1em;
         margin-left: 1em;
+        justify-content: flex-start;
     }
 
     .footer-cuatro form {
