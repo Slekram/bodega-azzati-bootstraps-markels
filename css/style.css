@@ -19,18 +19,24 @@ html{
 }
 
 
+/* Header */
+
 
 /* PAGINA INDEX -----------------------------------------*/
+
 
 
 /* SECCION BODEGA */
 
 .la-bodega{
     background-color: #FAEBD7;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .div-bodega{
     border: #2e3436 solid 5px;
+    
 }
 
 .div-bodega h2{
@@ -76,13 +82,19 @@ html{
     justify-content: center;
     align-items: center;
     background-color: #ffa07a;
+    padding-top: 2em;
+    padding-bottom: 2em;
 
 }
+
+
 
 /* SECCION NOSOTROS */
 
 #nosotros{
     background-color:#FAEBD7;
+    padding-top: 2em;
+    padding-bottom: 2em;
 }
 
 .div-nosotros{
@@ -150,18 +162,6 @@ padding-bottom: 2em;
 /* PUNTOS DE VENTA ------------------------------------------------*/
 
 
-.grid-puntos{
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "blanco puntos blanco2"
-    "footer footer footer";
-}
-
-.puntos{
-    grid-area: puntos;
-}
-
 .puntos h2 {
     display: flex;
     justify-content: center;
@@ -217,29 +217,23 @@ padding-bottom: 2em;
     align-items: center;
 }
 
-
-
-
 /* CONTACTO ---------------------------------------------------*/
-
-.grid-contacto{
-    display: grid;
-    grid-template-areas: 
-    "header header header"
-    "blanco contacto blanco2"
-    "blanco3 atencion blanco4"
-    "footer footer footer";
-   
-}
 
 /* Formulario de contato */
 
+.contacto-container{
+    background-color: #FAEBD7;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+
 .formulario-contacto{
-    grid-area: contacto;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: #2e3436 10px solid;
+    margin-bottom: 2em;
+    
 }
 
 .formulario-contacto h2{
@@ -262,12 +256,16 @@ padding-bottom: 2em;
 
 /* Atencion al consumidor */
 
+.puntos-container{
+    background-color: #FAEBD7;
+}
+
 .atencion-consumidor{
-    grid-area: atencion ;
     display: flex;
     flex-direction: column;
     align-items: center;
     border: #2e3436 10px solid;
+    margin-bottom: 2em;
 } 
 
 
@@ -418,7 +416,15 @@ footer{
 
 @media screen and (min-width:360px){
 
+
+    /* HEADER */
+
+    #navegador{
+        flex-direction: row;
+        justify-content: space-around;
+    }
     
+
     /* SECCION BODEGA */
     
    
