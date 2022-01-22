@@ -11,6 +11,13 @@ html{
     font-size: 1em;
 }
 
+/* HEADER */
+
+#logo{
+    font-size: 1.988rem;
+    color: #FAEBD7;
+}
+
 /* PAGINA INDEX -----------------------------------------*/
 
 /* SECCION BODEGA */
@@ -143,16 +150,19 @@ padding-bottom: 2em;
 
 /* PUNTOS DE VENTA ------------------------------------------------*/
 
+.puntos-container{
+    background-color: #FAEBD7;
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
 
 .puntos h2 {
     display: flex;
     justify-content: center;
     text-align: center;
     font-weight: bold;
-    font-family: saintCapital;
     text-decoration: underline;
     color: #2e3436;
-
 }
 
 .mapa-local-mendoza{
@@ -160,6 +170,7 @@ padding-bottom: 2em;
     flex-direction: column;
     align-items: center;
     border: #2e3436 5px solid;
+    margin-bottom: 2em;
 }
 
 .mapa-local-mendoza h3{
@@ -182,6 +193,7 @@ padding-bottom: 2em;
     flex-direction: column;
     align-items: center;
     border: #2e3436 5px solid;
+    margin-bottom: 2em;
 }
 
 .mapa-local h3{
@@ -219,14 +231,12 @@ padding-bottom: 2em;
 }
 
 .formulario-contacto h2{
-    font-family: saintCapital;
     text-align: center;
     text-decoration: underline;
     font-weight: bold;
 }
 
 .formulario-contacto p{
-    font-family: saintCapital;
     text-align: justify;
 }
 
@@ -238,9 +248,7 @@ padding-bottom: 2em;
 
 /* Atencion al consumidor */
 
-.puntos-container{
-    background-color: #FAEBD7;
-}
+
 
 .atencion-consumidor{
     display: flex;
@@ -445,91 +453,135 @@ footer{
         font-size: 1.2rem;
     }
 
+/* PUNTOS DE VENTA ------------------------------------------------*/
 
 
-     /* FOOTER --------------------------------------------------------*/
-
-     .footer-superior{
-        justify-content: center;
-    }
-
-    .footer-inferior{
-        justify-content: center;
-    }
+.puntos h2 {
+    font-size: 2.5rem;
+    margin: 1em;
+}
 
 
-    /* Footer 1 */
+.mapa-local-mendoza h3{
+    margin: 1em;
+    font-size: 1rem;
+}
 
-    .footer-uno h4 {
-        font-size: 1.2rem;
-       justify-content: center;
-    }
+.sala-turismo{
+    font-size: 1.5rem;
+    margin: 1em;
+}
 
+.mapa-local h3{
+    font-size: 1rem;
+    margin: 1em;
+}
+
+.mapa-interno iframe{
+    max-width: 250px;
+}
+
+.mapa-interno svg, .mapa-interno iframe{
+    margin: 1em;
+}
+
+/* CONTACTO ---------------------------------------------------*/
+
+/* Formulario de contato */
+
+.formulario-contacto h2{
+    font-size: 2.5rem;
+}
+
+.formulario-contacto p{
+    font-size: 1.5rem;
+    margin: 1em;
+}
+
+.formulario-contacto form{
+    flex-direction: column;
+}
+
+/* FOOTER --------------------------------------------------------*/
+
+.footer-superior{
+    justify-content: center;
+}
+
+.footer-inferior{
+    justify-content: center;
+}
+
+/* Footer 1 */
+
+.footer-uno h4 {
+    font-size: 1.2rem;
+    justify-content: center;
+}
+
+.container-premios h5{
+    font-size: 0.9rem; 
+    margin-right: 0.4em;
+}
+
+
+/* Footer 2 */
+
+
+.footer-dos h4{
+    font-size: 1.2rem;
+    margin-bottom: 0.5em;
+    justify-content: center;
     
-    .container-premios h5{
-        font-size: 0.9rem; 
-        margin-right: 0.4em;
-    }
+} 
 
 
-
-    /* Footer 2 */
-
-
-    .footer-dos h4{
-        font-size: 1.2rem;
-        margin-bottom: 0.5em;
-        justify-content: center;
-        
-    } 
-
-
-    .container-redes div a{
-        font-size: 0.7rem;
-      
-    }
-
-
-    .container-redes div h5 {
-        text-decoration: underline;
-        font-weight: bold;
-        color: #2e3436;
-    }
-
-    /* Footer 3 */
-
+.container-redes div a{
+    font-size: 0.7rem;
     
-    .footer-tres h4{
-        font-size: 1.2rem;
-        justify-content: center;
-    }
+}
 
-    .container-mapa iframe{
-        width: 300px;
-    }
 
-    /* Footer 4 */
+.container-redes div h5 {
+    text-decoration: underline;
+    font-weight: bold;
+    color: #2e3436;
+}
 
-    .footer-cuatro h4 {
-        font-size: 1.2rem;
-    }
+/* Footer 3 */
 
-    .footer-cuatro form {
-        margin-bottom: 1em;
-    }
 
-    .footer-cuatro form label{
-        font-size: 1.2rem;    }
+.footer-tres h4{
+    font-size: 1.2rem;
+    justify-content: center;
+}
 
-    .footer-cuatro form input {
-        font-size: 1.5rem;
-    }  
+.container-mapa iframe{
+    width: 300px;
+}
 
-    /* Footer 5 */
+/* Footer 4 */
 
-    .footer-cinco span{
-        font-size: 0.6rem;  
-    }
+.footer-cuatro h4 {
+    font-size: 1.2rem;
+}
+
+.footer-cuatro form {
+    margin-bottom: 1em;
+}
+
+.footer-cuatro form label{
+    font-size: 1.2rem;    }
+
+.footer-cuatro form input {
+    font-size: 1.5rem;
+}  
+
+/* Footer 5 */
+
+.footer-cinco span{
+    font-size: 0.6rem;  
+}
 
 }
 /* Parametros Desktop *-------------------------------------------------------------------------------------------------------------------------------
@@ -628,11 +680,6 @@ footer{
 
     /* PUNTOS DE VENTA ------------------------------------------------*/
 
-    .grid-puntos{
-        grid-template-rows: 7rem 160rem 20rem;
-        row-gap: 3rem;
-    
-    }
 
     .puntos h2 {
         font-size: 3rem;
